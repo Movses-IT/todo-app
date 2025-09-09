@@ -1,0 +1,23 @@
+.about {
+  background-color: #f9f9f9;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* выравнивание по правому краю */
+  justify-content: center; /* центрирует по вертикали, если нужно */
+}
+
+.title {
+  font-size: 2.5rem; /* крупнее */
+  font-weight: bold;
+
+  color: #333;
+}
+
+.description {
+  font-size: 1.5rem; /* чуть крупнее */
+  line-height:2;
+  max-width: 800px; /* чтобы текст не растягивался на всю ширину */
+  color: #555;
+}
