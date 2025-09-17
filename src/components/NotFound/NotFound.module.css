@@ -1,0 +1,34 @@
+/* src/pages/NotFound/NotFound.module.css */
+.container {
+  text-align: center;
+  padding: 60px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 100px;
+  color: #ff4d4f;
+}
+
+.subtitle {
+  font-size: 30px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.text {
+  font-size: 18px;
+  margin: 20px 0;
+  color: #666;
+}
+
+.link {
+  text-decoration: none;
+  color: #0080ff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #0056b3;
+}

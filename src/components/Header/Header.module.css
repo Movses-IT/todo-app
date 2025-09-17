@@ -1,0 +1,40 @@
+.header {
+  background-color: #00aaba;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 170, 186, 0.3);
+}
+
+.logo {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.nav {
+  font-size: 20px;
+  display: flex;
+  justify-content: center; /* выравнивание вправо */
+  flex-wrap: wrap;           /* перенос ссылок при маленьких экранах */
+  gap: 50px;                 /* расстояние между ссылками */
+  padding: 10px 20px;        /* внутренние отступы навигации */
+  margin: 10px 0;
+}
+
+.nav a {
+  color: white;
+ 
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.nav a:hover {
+  text-decoration: none; /* убираем подчеркивание при наведении */
+  background-color: #ffffff; /* подсветка ссылки при наведении */
+  color: #1377c4; /* меняем цвет текста на желтый при наведении */
+}
